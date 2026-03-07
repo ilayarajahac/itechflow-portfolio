@@ -25,13 +25,41 @@ export default function HireMe() {
               Hi, I'm <span className="gradient-text">Ilayaraja</span>
             </h1>
             <p className="text-gray-400 text-lg mb-4 leading-relaxed">
-              A passionate full-stack developer specializing in building scalable systems, 
-              AI integration, and backend architecture.
+              I specialize in building scalable full-stack systems using Python frameworks (Django, FastAPI) and modern JavaScript frameworks (React, Next.js, TypeScript).
             </p>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              With 5+ years of experience, I help startups and growing industries transform 
-              their ideas into powerful, production-ready applications.
+              My experience includes ERP platforms, real-time WebSocket applications, PWA development, and production deployments with PostgreSQL databases, Redis caching, and Nginx reverse proxy on VPS infrastructure.
             </p>
+            <div className="grid md:grid-cols-2 gap-3 text-gray-400">
+              <div>
+                <p className="font-semibold text-[#06b6d4] mb-2">Backend</p>
+                <p>✓ Django & FastAPI</p>
+                <p>✓ PostgreSQL & Redis</p>
+                <p>✓ WebSocket & Celery</p>
+                <p>✓ REST API Design</p>
+              </div>
+              <div>
+                <p className="font-semibold text-[#06b6d4] mb-2">Frontend</p>
+                <p>✓ React & Next.js</p>
+                <p>✓ TypeScript & JavaScript</p>
+                <p>✓ Tailwind CSS</p>
+                <p>✓ PWA Development</p>
+              </div>
+              <div>
+                <p className="font-semibold text-[#06b6d4] mb-2">Deployment</p>
+                <p>✓ VPS & Nginx</p>
+                <p>✓ Docker</p>
+                <p>✓ Vercel</p>
+                <p>✓ CI/CD</p>
+              </div>
+              <div>
+                <p className="font-semibold text-[#06b6d4] mb-2">Database</p>
+                <p>✓ PostgreSQL Design</p>
+                <p>✓ Redis Caching</p>
+                <p>✓ Query Optimization</p>
+                <p>✓ Database Migrations</p>
+              </div>
+            </div>
           </div>
         </div>
 

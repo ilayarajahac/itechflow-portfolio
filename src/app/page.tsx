@@ -104,7 +104,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Full-stack development, AI integration, and backend architecture for startups and growing industries.
+              Specializing in scalable backend systems with Django & FastAPI, PostgreSQL databases, and production deployments on VPS infrastructure.
             </motion.p>
             
             <motion.div
@@ -135,16 +135,16 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <div className="text-center md:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-[#06b6d4] mb-1">50+</div>
-                <div className="text-xs text-gray-400">Projects</div>
+                <div className="text-2xl md:text-3xl font-bold text-[#06b6d4] mb-1">5</div>
+                <div className="text-xs text-gray-400">Production Projects</div>
               </div>
               <div className="text-center md:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-[#06b6d4] mb-1">5+</div>
+                <div className="text-2xl md:text-3xl font-bold text-[#06b6d4] mb-1">3+</div>
                 <div className="text-xs text-gray-400">Years Exp</div>
               </div>
               <div className="text-center md:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-[#06b6d4] mb-1">100%</div>
-                <div className="text-xs text-gray-400">Satisfaction</div>
+                <div className="text-2xl md:text-3xl font-bold text-[#06b6d4] mb-1">Live</div>
+                <div className="text-xs text-gray-400">In Production</div>
               </div>
             </motion.div>
           </div>
