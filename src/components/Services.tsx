@@ -10,6 +10,11 @@ export default function Services() {
       icon: "⚡",
     },
     {
+      title: "Website Development",
+      description: "Professional, responsive websites with Next.js and React. Fast, SEO-optimized, and deployed globally on Vercel.",
+      icon: "🌐",
+    },
+    {
       title: "AI Integration",
       description: "Integrate AI capabilities using pgvector, embeddings, and semantic search into your existing systems.",
       icon: "🤖",
@@ -28,11 +33,6 @@ export default function Services() {
       title: "VPS Deployment",
       description: "Production-ready deployment with Nginx, SSL, and optimized server configurations.",
       icon: "🚀",
-    },
-    {
-      title: "Database Design",
-      description: "Efficient PostgreSQL schema design, optimization, and vector search implementation.",
-      icon: "💾",
     },
   ];
 

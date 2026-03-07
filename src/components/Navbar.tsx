@@ -54,19 +54,19 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-[#0b0f19] border-t border-gray-800">
           <div className="px-4 py-4 space-y-3">
-            <Link href="/" className="block hover:text-[#06b6d4] transition-colors">
+            <Link href="/" className="block hover:text-[#06b6d4] transition-colors" onClick={() => setIsOpen(false)}>
               Home
             </Link>
-            <Link href="/solutions" className="block hover:text-[#06b6d4] transition-colors">
+            <Link href="/solutions" className="block hover:text-[#06b6d4] transition-colors" onClick={() => setIsOpen(false)}>
               Solutions
             </Link>
-            <Link href="/projects" className="block hover:text-[#06b6d4] transition-colors">
+            <Link href="/projects" className="block hover:text-[#06b6d4] transition-colors" onClick={() => setIsOpen(false)}>
               Projects
             </Link>
-            <Link href="/insights" className="block hover:text-[#06b6d4] transition-colors">
+            <Link href="/insights" className="block hover:text-[#06b6d4] transition-colors" onClick={() => setIsOpen(false)}>
               Insights
             </Link>
-            <Link href="/hire-me" className="block px-4 py-2 bg-[#06b6d4] rounded-lg text-center hover:bg-[#0891b2] transition-colors">
+            <Link href="/hire-me" className="block px-4 py-2 bg-[#06b6d4] rounded-lg text-center hover:bg-[#0891b2] transition-colors" onClick={() => setIsOpen(false)}>
               Hire Me
             </Link>
           </div>
