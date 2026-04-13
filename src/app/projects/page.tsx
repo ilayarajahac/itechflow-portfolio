@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { projects } from "@/data/projects";
+
+export const metadata: Metadata = {
+  title: "Projects — iTechFlow",
+  description:
+    "Real production projects by iTechFlow — Tamil AI receptionist, WhatsApp bots, enterprise ERP, and scalable backend systems.",
+};
 
 export default function Projects() {
   return (
@@ -15,11 +22,25 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="border border-gray-800 rounded-lg p-8 hover:border-[#06b6d4] transition-all"
+              className={`border rounded-xl p-8 transition-all
+                ${project.isAIAgent
+                  ? "border-[#06b6d4]/40 bg-gradient-to-br from-[#06b6d4]/5 to-transparent hover:border-[#06b6d4]"
+                  : "border-gray-800 hover:border-[#06b6d4]"
+                }`}
             >
               {/* Header */}
               <div className="flex flex-wrap items-start justify-between mb-6">
                 <div>
+                  {project.isAIAgent && (
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="px-2.5 py-1 text-xs font-bold rounded-full bg-[#06b6d4]/20 text-[#06b6d4] border border-[#06b6d4]/30">
+                        🤖 AI Agent
+                      </span>
+                      <span className="px-2.5 py-1 text-xs font-bold rounded-full bg-green-500/20 text-green-400 border border-green-500/30">
+                        ● Live
+                      </span>
+                    </div>
+                  )}
                   <h2 className="text-3xl font-bold mb-2">{project.title}</h2>
                   <p className="text-[#06b6d4] text-lg">{project.category}</p>
                 </div>
@@ -97,6 +118,49 @@ export default function Projects() {
                   <h4 className="text-lg font-semibold mb-4 text-[#06b6d4]">System Architecture</h4>
                   <pre className="text-xs md:text-sm text-gray-300 overflow-x-auto">
                     {project.id === 1 && `
+┌──────────────────────────────────────────────────┐
+│          Tamil AI Receptionist                   │
+└───────────────┬──────────────────────────────────┘
+                │ Incoming Call / WhatsApp Message
+    ┌───────────▼───────────┐
+    │   Twilio              │
+    │   Voice & WhatsApp    │
+    └───────────┬───────────┘
+                │
+    ┌───────────▼───────────┐
+    │   Sarvam AI           │
+    │   Tamil STT + AI      │
+    └───────────┬───────────┘
+                │
+    ┌───────────▼───────────┐
+    │   FastAPI Backend     │
+    │   Conversation Logic  │
+    └───────┬───────────────┘
+            │
+    ┌───────▼───────┐    ┌──────────────────┐
+    │   Supabase    │    │  WhatsApp Alert  │
+    │   Lead Store  │    │  to Business     │
+    └───────────────┘    └──────────────────┘`}
+                    {project.id === 2 && `
+┌──────────────────────────────────────────────────┐
+│          WhatsApp AI Bot                         │
+└───────────────┬──────────────────────────────────┘
+                │ Customer WhatsApp Message
+    ┌───────────▼───────────┐
+    │   Twilio Webhook      │
+    │   WhatsApp Business   │
+    └───────────┬───────────┘
+                │
+    ┌───────────▼───────────┐
+    │   FastAPI + Sarvam AI │
+    │   Session Manager     │
+    └───────┬───────────────┘
+            │
+    ┌───────▼───────┐    ┌──────────────────┐
+    │   Supabase    │    │  Real-time Alert  │
+    │   Sessions    │    │  to Owner        │
+    └───────────────┘    └──────────────────┘`}
+                    {project.id === 3 && `
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   React Native  │    │   React Web     │    │   Admin Panel   │
 │   Mobile Apps   │    │   Dashboard     │    │   (Django)      │
@@ -120,7 +184,7 @@ export default function Projects() {
                         │  TensorFlow    │
                         │  (AI Models)   │
                         └────────────────┘`}
-                    {project.id === 2 && `
+                    {project.id === 4 && `
 ┌─────────────────┐    ┌─────────────────┐
 │   React PWA     │    │  Admin Panel    │
 │   (Offline)     │    │  (Dashboard)    │
@@ -144,7 +208,7 @@ export default function Projects() {
 │ PostgreSQL│   │   Redis   │   │  Celery  │
 │ (10+ mods)│   │ (Pub/Sub) │   │  Beat    │
 └───────────┘   └───────────┘   └──────────┘`}
-                    {project.id === 3 && `
+                    {project.id === 5 && `
 ┌─────────────────┐    ┌─────────────────┐
 │  React Frontend │    │  Admin Panel    │
 │  (TypeScript)   │    │  (Management)   │
@@ -167,7 +231,7 @@ export default function Projects() {
 │PostgreSQL│   │   Redis   │   │  Gmail   │
 │(100+ NSE)│   │  (Cache)  │   │  SMTP    │
 └──────────┘   └───────────┘   └──────────┘`}
-                    {project.id === 4 && `
+                    {project.id === 6 && `
 ┌─────────────────┐    ┌─────────────────┐
 │  Technician     │    │  Manager        │
 │  Dashboard      │    │  Dashboard      │
@@ -189,7 +253,7 @@ export default function Projects() {
         │   SQLite/PostgreSQL    │
         │   (Equipment Data)     │
         └────────────────────────┘`}
-                    {project.id === 5 && `
+                    {project.id === 7 && `
 ┌─────────────────┐    ┌─────────────────┐
 │   Browser A     │    │   Browser B     │
 │   (Peer 1)      │    │   (Peer 2)      │

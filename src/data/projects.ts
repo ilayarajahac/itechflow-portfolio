@@ -1,6 +1,101 @@
 export const projects = [
   {
     id: 1,
+    title: "Tamil AI Receptionist",
+    category: "AI Agent",
+    description: "24/7 AI-powered Tamil voice and WhatsApp receptionist that handles customer inquiries, collects lead details, and sends instant WhatsApp alerts to business owners.",
+    longDescription: "A fully autonomous Tamil AI receptionist that speaks and understands Tamil natively using Sarvam AI. Built for Indian businesses who want 24/7 customer coverage without hiring staff. The agent answers calls in Tamil, collects lead information (name, phone, service needed, budget), and instantly notifies the business owner via WhatsApp with a structured summary. All leads are stored in Supabase for CRM tracking.",
+    technologies: [
+      "Sarvam AI",
+      "FastAPI",
+      "Python",
+      "Twilio",
+      "Supabase",
+      "ngrok",
+      "WhatsApp API"
+    ],
+    features: [
+      "Tamil Speech to Text (Sarvam STT) — native Tamil understanding",
+      "AI Brain with natural Tamil conversation flow",
+      "Auto lead capture — Name, Phone, Service, Budget",
+      "Instant WhatsApp summary alerts to business owner",
+      "Supabase database storage for all leads",
+      "24/7 uptime — never misses a customer call",
+      "Multi-turn conversation with context memory",
+      "Handles interruptions and clarifications naturally"
+    ],
+    metrics: {
+      availability: "24/7",
+      language: "Tamil",
+      leadCapture: "Auto",
+      alerts: "Instant",
+      storage: "Supabase",
+      status: "Live"
+    },
+    architecture: [
+      "Sarvam AI for Tamil STT/TTS",
+      "FastAPI async backend",
+      "Twilio Voice & WhatsApp API",
+      "Supabase PostgreSQL database",
+      "ngrok for webhook tunneling",
+      "Multi-turn conversation state machine",
+      "Real-time WhatsApp notifications"
+    ],
+    status: "Live",
+    link: "Private",
+    image: null,
+    year: "2025",
+    isAIAgent: true
+  },
+  {
+    id: 2,
+    title: "WhatsApp AI Bot",
+    category: "AI Agent",
+    description: "Intelligent WhatsApp chatbot that automatically responds to customer messages in Tamil, collects business leads, and notifies owners in real-time.",
+    longDescription: "A production-ready WhatsApp AI bot built for Tamil-speaking businesses. The bot automatically handles incoming customer messages 24/7, responds intelligently in Tamil, extracts lead information from the conversation, and instantly notifies business owners with structured summaries. Features multi-user session management to handle hundreds of simultaneous customers without confusion.",
+    technologies: [
+      "FastAPI",
+      "Twilio",
+      "Sarvam AI",
+      "Supabase",
+      "Python",
+      "WhatsApp API"
+    ],
+    features: [
+      "24/7 automated Tamil replies via WhatsApp",
+      "Smart lead extraction from conversation context",
+      "Multi-user session management (hundreds simultaneously)",
+      "Real-time WhatsApp alerts to business owner",
+      "Conversation history stored in Supabase",
+      "Handles follow-up questions and clarifications",
+      "Graceful handoff when human response is needed",
+      "Business hours awareness and auto-responses"
+    ],
+    metrics: {
+      platform: "WhatsApp",
+      language: "Tamil",
+      sessions: "Multi-user",
+      alerts: "Real-time",
+      storage: "Supabase",
+      status: "Live"
+    },
+    architecture: [
+      "FastAPI webhook handler",
+      "Twilio WhatsApp Business API",
+      "Sarvam AI language model",
+      "Supabase for session & lead storage",
+      "In-memory session management",
+      "Async message processing",
+      "Webhook signature verification"
+    ],
+    status: "Live",
+    link: "Private",
+    image: null,
+    year: "2025",
+    isAIAgent: true
+  },
+  {
+    id: 3,
     title: "ATHENAS SAP System",
     category: "Enterprise ERP Platform",
     description: "Full-stack enterprise ERP platform with 95,000+ lines of production code. Multi-tenant system with AI/ML integration, real-time processing, and mobile apps.",
@@ -49,10 +144,11 @@ export const projects = [
     status: "Live in Production",
     link: "Private",
     image: null,
-    year: "2024"
+    year: "2024",
+    isAIAgent: false
   },
   {
-    id: 2,
+    id: 4,
     title: "AgencyFlow",
     category: "Enterprise Business Management Platform",
     description: "Production-ready enterprise platform for distribution & logistics agencies. Features PWA capabilities, real-time WebSocket updates, offline-first architecture, and bulletproof financial integrity.",
@@ -106,10 +202,11 @@ export const projects = [
     status: "Production Ready",
     link: "https://github.com/ilayarajahac/agency",
     image: null,
-    year: "2024"
+    year: "2024",
+    isAIAgent: false
   },
   {
-    id: 3,
+    id: 5,
     title: "Stock Market Expert App",
     category: "Stock Market Analysis Platform",
     description: "Comprehensive stock analysis platform with team collaboration, buddy system, and RAG (Red-Amber-Green) indicators. Features admin panel for team management, stock assignments, and real-time analysis tracking.",
@@ -161,10 +258,11 @@ export const projects = [
     status: "Production Ready",
     link: "Private",
     image: null,
-    year: "2024"
+    year: "2024",
+    isAIAgent: false
   },
   {
-    id: 4,
+    id: 6,
     title: "Industrial Equipment Monitoring System",
     category: "Real-time Industrial IoT Platform",
     description: "Real-time equipment checklist and monitoring system for 30+ industrial companies. Features dual dashboards for field technicians and executives with live WebSocket updates and visual building layouts.",
@@ -213,14 +311,15 @@ export const projects = [
     status: "Production-Ready Demo",
     link: "Private",
     image: null,
-    year: "2024"
+    year: "2024",
+    isAIAgent: false
   },
   {
-    id: 5,
+    id: 7,
     title: "AI Video Call Assistant",
-    category: "Real-time Communication Platform (Hackathon Project)",
-    description: "Real-time video calling application with live speech-to-text transcription. Features WebRTC peer-to-peer communication, continuous voice recognition, and cross-device compatibility for accessibility and collaboration.",
-    longDescription: "Innovative video calling platform built for a school hackathon project. Combines WebRTC video communication with real-time speech-to-text transcription using Web Speech API. Features include room-based connections, SSL-secured local network communication, continuous speech recognition with auto-restart, and cross-platform compatibility. Solves browser inconsistencies with manual MediaStream construction and implements smart signaling to prevent connection conflicts.",
+    category: "Real-time Communication Platform",
+    description: "Real-time video calling application with live speech-to-text transcription. Features WebRTC peer-to-peer communication, continuous voice recognition, and cross-device compatibility.",
+    longDescription: "Innovative video calling platform built for a school hackathon project. Combines WebRTC video communication with real-time speech-to-text transcription using Web Speech API. Features include room-based connections, SSL-secured local network communication, continuous speech recognition with auto-restart, and cross-platform compatibility.",
     technologies: [
       "React",
       "TypeScript",
@@ -239,9 +338,7 @@ export const projects = [
       "Continuous speech recognition with auto-restart",
       "Manual MediaStream construction for reliability",
       "Chrome autoplay policy compliance",
-      "Cross-platform (Linux, Windows, mobile browsers)",
-      "Targeted WebRTC signaling (no broadcast)",
-      "Real-time transcription display and transmission"
+      "Cross-platform (Linux, Windows, mobile browsers)"
     ],
     metrics: {
       connection: "1-to-1",
@@ -263,6 +360,7 @@ export const projects = [
     status: "Hackathon Demo",
     link: "Private",
     image: null,
-    year: "2024"
+    year: "2024",
+    isAIAgent: false
   }
 ];
