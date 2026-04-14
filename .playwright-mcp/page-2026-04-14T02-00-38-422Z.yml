@@ -1,0 +1,679 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "iTechFlow iTechFlow" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "iTechFlow" [ref=e6]
+        - generic [ref=e7]: iTechFlow
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Solutions" [ref=e10] [cursor=pointer]:
+          - /url: /solutions
+        - link "Projects" [active] [ref=e11] [cursor=pointer]:
+          - /url: /projects
+        - link "Insights" [ref=e12] [cursor=pointer]:
+          - /url: /insights
+        - link "Chat on WhatsApp" [ref=e13] [cursor=pointer]:
+          - /url: https://wa.me/919080849708
+          - img [ref=e14]
+          - text: WhatsApp
+        - link "Hire Me" [ref=e16] [cursor=pointer]:
+          - /url: /hire-me
+  - main [ref=e289]:
+    - generic [ref=e290]:
+      - heading "My Projects" [level=1] [ref=e291]
+      - paragraph [ref=e292]: Real projects I've built and deployed in production
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e298]: 🤖 AI Agent
+                - generic [ref=e299]: ● Live
+              - heading "Tamil AI Receptionist" [level=2] [ref=e300]
+              - paragraph [ref=e301]: AI Agent
+            - generic [ref=e302]:
+              - generic [ref=e303]: Live
+              - generic [ref=e304]: "2025"
+          - paragraph [ref=e305]: A fully autonomous Tamil AI receptionist that speaks and understands Tamil natively using Sarvam AI. Built for Indian businesses who want 24/7 customer coverage without hiring staff. The agent answers calls in Tamil, collects lead information (name, phone, service needed, budget), and instantly notifies the business owner via WhatsApp with a structured summary. All leads are stored in Supabase for CRM tracking.
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: 24/7
+              - generic [ref=e309]: availability
+            - generic [ref=e310]:
+              - generic [ref=e311]: Tamil
+              - generic [ref=e312]: language
+            - generic [ref=e313]:
+              - generic [ref=e314]: Auto
+              - generic [ref=e315]: lead Capture
+            - generic [ref=e316]:
+              - generic [ref=e317]: Instant
+              - generic [ref=e318]: alerts
+            - generic [ref=e319]:
+              - generic [ref=e320]: Supabase
+              - generic [ref=e321]: storage
+            - generic [ref=e322]:
+              - generic [ref=e323]: Live
+              - generic [ref=e324]: status
+          - generic [ref=e325]:
+            - heading "Technologies Used" [level=3] [ref=e326]
+            - generic [ref=e327]:
+              - generic [ref=e328]: Sarvam AI
+              - generic [ref=e329]: FastAPI
+              - generic [ref=e330]: Python
+              - generic [ref=e331]: Twilio
+              - generic [ref=e332]: Supabase
+              - generic [ref=e333]: ngrok
+              - generic [ref=e334]: WhatsApp API
+          - generic [ref=e335]:
+            - heading "Key Features" [level=3] [ref=e336]
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - generic [ref=e339]: ✓
+                - generic [ref=e340]: Tamil Speech to Text (Sarvam STT) — native Tamil understanding
+              - generic [ref=e341]:
+                - generic [ref=e342]: ✓
+                - generic [ref=e343]: AI Brain with natural Tamil conversation flow
+              - generic [ref=e344]:
+                - generic [ref=e345]: ✓
+                - generic [ref=e346]: Auto lead capture — Name, Phone, Service, Budget
+              - generic [ref=e347]:
+                - generic [ref=e348]: ✓
+                - generic [ref=e349]: Instant WhatsApp summary alerts to business owner
+              - generic [ref=e350]:
+                - generic [ref=e351]: ✓
+                - generic [ref=e352]: Supabase database storage for all leads
+              - generic [ref=e353]:
+                - generic [ref=e354]: ✓
+                - generic [ref=e355]: 24/7 uptime — never misses a customer call
+              - generic [ref=e356]:
+                - generic [ref=e357]: ✓
+                - generic [ref=e358]: Multi-turn conversation with context memory
+              - generic [ref=e359]:
+                - generic [ref=e360]: ✓
+                - generic [ref=e361]: Handles interruptions and clarifications naturally
+          - generic [ref=e362]:
+            - heading "Architecture Highlights" [level=3] [ref=e363]
+            - generic [ref=e364]:
+              - generic [ref=e365]: Sarvam AI for Tamil STT/TTS
+              - generic [ref=e366]: FastAPI async backend
+              - generic [ref=e367]: Twilio Voice & WhatsApp API
+              - generic [ref=e368]: Supabase PostgreSQL database
+              - generic [ref=e369]: ngrok for webhook tunneling
+              - generic [ref=e370]: Multi-turn conversation state machine
+              - generic [ref=e371]: Real-time WhatsApp notifications
+            - generic [ref=e372]:
+              - heading "System Architecture" [level=4] [ref=e373]
+              - generic [ref=e374]: ┌──────────────────────────────────────────────────┐ │ Tamil AI Receptionist │ └───────────────┬──────────────────────────────────┘ │ Incoming Call / WhatsApp Message ┌───────────▼───────────┐ │ Twilio │ │ Voice & WhatsApp │ └───────────┬───────────┘ │ ┌───────────▼───────────┐ │ Sarvam AI │ │ Tamil STT + AI │ └───────────┬───────────┘ │ ┌───────────▼───────────┐ │ FastAPI Backend │ │ Conversation Logic │ └───────┬───────────────┘ │ ┌───────▼───────┐ ┌──────────────────┐ │ Supabase │ │ WhatsApp Alert │ │ Lead Store │ │ to Business │ └───────────────┘ └──────────────────┘
+        - generic [ref=e375]:
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - generic [ref=e379]: 🤖 AI Agent
+                - generic [ref=e380]: ● Live
+              - heading "WhatsApp AI Bot" [level=2] [ref=e381]
+              - paragraph [ref=e382]: AI Agent
+            - generic [ref=e383]:
+              - generic [ref=e384]: Live
+              - generic [ref=e385]: "2025"
+          - paragraph [ref=e386]: A production-ready WhatsApp AI bot built for Tamil-speaking businesses. The bot automatically handles incoming customer messages 24/7, responds intelligently in Tamil, extracts lead information from the conversation, and instantly notifies business owners with structured summaries. Features multi-user session management to handle hundreds of simultaneous customers without confusion.
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - generic [ref=e389]: WhatsApp
+              - generic [ref=e390]: platform
+            - generic [ref=e391]:
+              - generic [ref=e392]: Tamil
+              - generic [ref=e393]: language
+            - generic [ref=e394]:
+              - generic [ref=e395]: Multi-user
+              - generic [ref=e396]: sessions
+            - generic [ref=e397]:
+              - generic [ref=e398]: Real-time
+              - generic [ref=e399]: alerts
+            - generic [ref=e400]:
+              - generic [ref=e401]: Supabase
+              - generic [ref=e402]: storage
+            - generic [ref=e403]:
+              - generic [ref=e404]: Live
+              - generic [ref=e405]: status
+          - generic [ref=e406]:
+            - heading "Technologies Used" [level=3] [ref=e407]
+            - generic [ref=e408]:
+              - generic [ref=e409]: FastAPI
+              - generic [ref=e410]: Twilio
+              - generic [ref=e411]: Sarvam AI
+              - generic [ref=e412]: Supabase
+              - generic [ref=e413]: Python
+              - generic [ref=e414]: WhatsApp API
+          - generic [ref=e415]:
+            - heading "Key Features" [level=3] [ref=e416]
+            - generic [ref=e417]:
+              - generic [ref=e418]:
+                - generic [ref=e419]: ✓
+                - generic [ref=e420]: 24/7 automated Tamil replies via WhatsApp
+              - generic [ref=e421]:
+                - generic [ref=e422]: ✓
+                - generic [ref=e423]: Smart lead extraction from conversation context
+              - generic [ref=e424]:
+                - generic [ref=e425]: ✓
+                - generic [ref=e426]: Multi-user session management (hundreds simultaneously)
+              - generic [ref=e427]:
+                - generic [ref=e428]: ✓
+                - generic [ref=e429]: Real-time WhatsApp alerts to business owner
+              - generic [ref=e430]:
+                - generic [ref=e431]: ✓
+                - generic [ref=e432]: Conversation history stored in Supabase
+              - generic [ref=e433]:
+                - generic [ref=e434]: ✓
+                - generic [ref=e435]: Handles follow-up questions and clarifications
+              - generic [ref=e436]:
+                - generic [ref=e437]: ✓
+                - generic [ref=e438]: Graceful handoff when human response is needed
+              - generic [ref=e439]:
+                - generic [ref=e440]: ✓
+                - generic [ref=e441]: Business hours awareness and auto-responses
+          - generic [ref=e442]:
+            - heading "Architecture Highlights" [level=3] [ref=e443]
+            - generic [ref=e444]:
+              - generic [ref=e445]: FastAPI webhook handler
+              - generic [ref=e446]: Twilio WhatsApp Business API
+              - generic [ref=e447]: Sarvam AI language model
+              - generic [ref=e448]: Supabase for session & lead storage
+              - generic [ref=e449]: In-memory session management
+              - generic [ref=e450]: Async message processing
+              - generic [ref=e451]: Webhook signature verification
+            - generic [ref=e452]:
+              - heading "System Architecture" [level=4] [ref=e453]
+              - generic [ref=e454]: ┌──────────────────────────────────────────────────┐ │ WhatsApp AI Bot │ └───────────────┬──────────────────────────────────┘ │ Customer WhatsApp Message ┌───────────▼───────────┐ │ Twilio Webhook │ │ WhatsApp Business │ └───────────┬───────────┘ │ ┌───────────▼───────────┐ │ FastAPI + Sarvam AI │ │ Session Manager │ └───────┬───────────────┘ │ ┌───────▼───────┐ ┌──────────────────┐ │ Supabase │ │ Real-time Alert │ │ Sessions │ │ to Owner │ └───────────────┘ └──────────────────┘
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - heading "ATHENAS SAP System" [level=2] [ref=e458]
+              - paragraph [ref=e459]: Enterprise ERP Platform
+            - generic [ref=e460]:
+              - generic [ref=e461]: Live in Production
+              - generic [ref=e462]: "2024"
+          - paragraph [ref=e463]: Enterprise-grade ERP system built from scratch in 2 months. Features include multi-tenant architecture, AI-powered HR with face recognition, GST-compliant finance module, ML demand forecasting, real-time dashboards, and React Native mobile apps. Currently live in production on Hostinger VPS serving multiple companies.
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - generic [ref=e466]: 95,000+
+              - generic [ref=e467]: code Lines
+            - generic [ref=e468]:
+              - generic [ref=e469]: 2 months
+              - generic [ref=e470]: development Time
+            - generic [ref=e471]:
+              - generic [ref=e472]: <200ms
+              - generic [ref=e473]: response Time
+            - generic [ref=e474]:
+              - generic [ref=e475]: 1,000+
+              - generic [ref=e476]: concurrent Users
+            - generic [ref=e477]:
+              - generic [ref=e478]: 99.5%
+              - generic [ref=e479]: accuracy
+            - generic [ref=e480]:
+              - generic [ref=e481]: 85%+
+              - generic [ref=e482]: test Coverage
+          - generic [ref=e483]:
+            - heading "Technologies Used" [level=3] [ref=e484]
+            - generic [ref=e485]:
+              - generic [ref=e486]: Django 5.2.6
+              - generic [ref=e487]: React
+              - generic [ref=e488]: React Native
+              - generic [ref=e489]: PostgreSQL
+              - generic [ref=e490]: Redis
+              - generic [ref=e491]: Celery
+              - generic [ref=e492]: TensorFlow 2.17
+              - generic [ref=e493]: OpenCV
+              - generic [ref=e494]: Nginx
+              - generic [ref=e495]: JWT Auth
+          - generic [ref=e496]:
+            - heading "Key Features" [level=3] [ref=e497]
+            - generic [ref=e498]:
+              - generic [ref=e499]:
+                - generic [ref=e500]: ✓
+                - generic [ref=e501]: Multi-tenant architecture with company data isolation
+              - generic [ref=e502]:
+                - generic [ref=e503]: ✓
+                - generic [ref=e504]: AI-powered face recognition attendance (99.5% accuracy)
+              - generic [ref=e505]:
+                - generic [ref=e506]: ✓
+                - generic [ref=e507]: GST-compliant finance module with automated tax calculations
+              - generic [ref=e508]:
+                - generic [ref=e509]: ✓
+                - generic [ref=e510]: ML-based demand forecasting for inventory
+              - generic [ref=e511]:
+                - generic [ref=e512]: ✓
+                - generic [ref=e513]: Real-time dashboards with WebSocket + Redis
+              - generic [ref=e514]:
+                - generic [ref=e515]: ✓
+                - generic [ref=e516]: React Native mobile apps (iOS & Android)
+              - generic [ref=e517]:
+                - generic [ref=e518]: ✓
+                - generic [ref=e519]: Role-based access control (RBAC)
+              - generic [ref=e520]:
+                - generic [ref=e521]: ✓
+                - generic [ref=e522]: Automated background tasks with Celery
+              - generic [ref=e523]:
+                - generic [ref=e524]: ✓
+                - generic [ref=e525]: 150+ normalized database tables
+              - generic [ref=e526]:
+                - generic [ref=e527]: ✓
+                - generic [ref=e528]: RESTful API with <200ms response time
+          - generic [ref=e529]:
+            - heading "Architecture Highlights" [level=3] [ref=e530]
+            - generic [ref=e531]:
+              - generic [ref=e532]: Microservices-ready monolith
+              - generic [ref=e533]: Nginx load balancer
+              - generic [ref=e534]: Django WSGI/ASGI deployment
+              - generic [ref=e535]: PostgreSQL with connection pooling
+              - generic [ref=e536]: Redis caching & session store
+              - generic [ref=e537]: Celery task queue
+              - generic [ref=e538]: Horizontal scaling ready
+            - generic [ref=e539]:
+              - heading "System Architecture" [level=4] [ref=e540]
+              - generic [ref=e541]: ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ │ React Native │ │ React Web │ │ Admin Panel │ │ Mobile Apps │ │ Dashboard │ │ (Django) │ └────────┬────────┘ └────────┬────────┘ └────────┬────────┘ │ │ │ └──────────────────────┴──────────────────────┘ │ ┌───────────▼───────────┐ │ Django REST API │ │ + JWT Auth │ └───────────┬───────────┘ │ ┌───────────────┼───────────────┐ │ │ │ ┌───────▼──────┐ ┌─────▼─────┐ ┌──────▼──────┐ │ PostgreSQL │ │ Redis │ │ Celery │ │ (150+ tables)│ │ (Cache) │ │ (Tasks) │ └──────────────┘ └───────────┘ └─────────────┘ │ ┌───────▼────────┐ │ TensorFlow │ │ (AI Models) │ └────────────────┘
+        - generic [ref=e542]:
+          - generic [ref=e543]:
+            - generic [ref=e544]:
+              - heading "AgencyFlow" [level=2] [ref=e545]
+              - paragraph [ref=e546]: Enterprise Business Management Platform
+            - generic [ref=e547]:
+              - generic [ref=e548]: Production Ready
+              - generic [ref=e549]: "2024"
+          - paragraph [ref=e550]: Comprehensive business management platform with 10+ modules achieving 10/10 production readiness. Built with Django Channels for real-time features, React PWA for offline collections, and immutable ledger for financial integrity. Includes staff management, vehicle tracking, attendance with salary processing, e-way bill management, and real-time collections with automatic reconciliation.
+          - generic [ref=e551]:
+            - generic [ref=e552]:
+              - generic [ref=e553]: 10+
+              - generic [ref=e554]: modules
+            - generic [ref=e555]:
+              - generic [ref=e556]: <100ms
+              - generic [ref=e557]: api Response
+            - generic [ref=e558]:
+              - generic [ref=e559]: <50ms
+              - generic [ref=e560]: ws Latency
+            - generic [ref=e561]:
+              - generic [ref=e562]: 10,000+
+              - generic [ref=e563]: concurrent Users
+            - generic [ref=e564]:
+              - generic [ref=e565]: 99.9%
+              - generic [ref=e566]: uptime
+            - generic [ref=e567]:
+              - generic [ref=e568]: 100%
+              - generic [ref=e569]: data Integrity
+          - generic [ref=e570]:
+            - heading "Technologies Used" [level=3] [ref=e571]
+            - generic [ref=e572]:
+              - generic [ref=e573]: Django 5.0.8
+              - generic [ref=e574]: Django REST Framework
+              - generic [ref=e575]: Django Channels 4.0
+              - generic [ref=e576]: React 18.2
+              - generic [ref=e577]: TypeScript 5.2
+              - generic [ref=e578]: Vite 5.0
+              - generic [ref=e579]: PostgreSQL
+              - generic [ref=e580]: Redis
+              - generic [ref=e581]: Celery 5.3.4
+              - generic [ref=e582]: WebSockets
+              - generic [ref=e583]: PWA
+              - generic [ref=e584]: IndexedDB
+              - generic [ref=e585]: TailwindCSS
+              - generic [ref=e586]: Zustand
+              - generic [ref=e587]: React Query
+          - generic [ref=e588]:
+            - heading "Key Features" [level=3] [ref=e589]
+            - generic [ref=e590]:
+              - generic [ref=e591]:
+                - generic [ref=e592]: ✓
+                - generic [ref=e593]: Progressive Web App with offline-first architecture
+              - generic [ref=e594]:
+                - generic [ref=e595]: ✓
+                - generic [ref=e596]: Real-time WebSocket notifications (10,000+ concurrent connections)
+              - generic [ref=e597]:
+                - generic [ref=e598]: ✓
+                - generic [ref=e599]: Immutable financial ledger with 100% data integrity
+              - generic [ref=e600]:
+                - generic [ref=e601]: ✓
+                - generic [ref=e602]: Automated daily reconciliation with conflict resolution
+              - generic [ref=e603]:
+                - generic [ref=e604]: ✓
+                - generic [ref=e605]: Staff management with encrypted sensitive data
+              - generic [ref=e606]:
+                - generic [ref=e607]: ✓
+                - generic [ref=e608]: Attendance tracking with automatic salary calculation
+              - generic [ref=e609]:
+                - generic [ref=e610]: ✓
+                - generic [ref=e611]: Vehicle & fuel tracking with analytics
+              - generic [ref=e612]:
+                - generic [ref=e613]: ✓
+                - generic [ref=e614]: E-way bill management with bulk Excel upload
+              - generic [ref=e615]:
+                - generic [ref=e616]: ✓
+                - generic [ref=e617]: Collections PWA with denomination entry
+              - generic [ref=e618]:
+                - generic [ref=e619]: ✓
+                - generic [ref=e620]: Real-time sync with retry logic and conflict logging
+          - generic [ref=e621]:
+            - heading "Architecture Highlights" [level=3] [ref=e622]
+            - generic [ref=e623]:
+              - generic [ref=e624]: Django Channels + WebSockets
+              - generic [ref=e625]: Daphne ASGI + Gunicorn WSGI
+              - generic [ref=e626]: PostgreSQL with 15+ strategic indexes
+              - generic [ref=e627]: Redis for caching & task queue
+              - generic [ref=e628]: Celery Beat for scheduled tasks
+              - generic [ref=e629]: Service workers for offline PWA
+              - generic [ref=e630]: IndexedDB for offline storage
+            - generic [ref=e631]:
+              - heading "System Architecture" [level=4] [ref=e632]
+              - generic [ref=e633]: ┌─────────────────┐ ┌─────────────────┐ │ React PWA │ │ Admin Panel │ │ (Offline) │ │ (Dashboard) │ └────────┬────────┘ └────────┬────────┘ │ │ └──────────┬───────────┘ │ ┌───────────▼────────────┐ │ Django Channels │ │ WebSocket Server │ └───────────┬────────────┘ │ ┌───────────▼────────────┐ │ Django REST API │ │ + JWT Auth │ └───────────┬────────────┘ │ ┌───────────────┼───────────────┐ │ │ │ ┌───▼────┐ ┌─────▼─────┐ ┌────▼─────┐ │ PostgreSQL│ │ Redis │ │ Celery │ │ (10+ mods)│ │ (Pub/Sub) │ │ Beat │ └───────────┘ └───────────┘ └──────────┘
+        - generic [ref=e634]:
+          - generic [ref=e635]:
+            - generic [ref=e636]:
+              - heading "Stock Market Expert App" [level=2] [ref=e637]
+              - paragraph [ref=e638]: Stock Market Analysis Platform
+            - generic [ref=e639]:
+              - generic [ref=e640]: Production Ready
+              - generic [ref=e641]: "2024"
+          - paragraph [ref=e642]: Full-stack stock market analysis platform enabling admins to manage teams, assign stocks, and facilitate collaborative analysis. Features include automated email notifications, buddy comparison system, RAG status indicators for buy opportunities, profile management with camera capture, and real-time stock tracking. Built with FastAPI backend and React TypeScript frontend with 100+ NSE stocks pre-loaded.
+          - generic [ref=e643]:
+            - generic [ref=e644]:
+              - generic [ref=e645]: 100+
+              - generic [ref=e646]: stocks
+            - generic [ref=e647]:
+              - generic [ref=e648]: Unlimited
+              - generic [ref=e649]: users
+            - generic [ref=e650]:
+              - generic [ref=e651]: Real-time
+              - generic [ref=e652]: updates
+            - generic [ref=e653]:
+              - generic [ref=e654]: 10 max
+              - generic [ref=e655]: featured
+            - generic [ref=e656]:
+              - generic [ref=e657]: 10+20
+              - generic [ref=e658]: pool Size
+            - generic [ref=e659]:
+              - generic [ref=e660]: httpOnly
+              - generic [ref=e661]: security
+          - generic [ref=e662]:
+            - heading "Technologies Used" [level=3] [ref=e663]
+            - generic [ref=e664]:
+              - generic [ref=e665]: FastAPI
+              - generic [ref=e666]: React 18
+              - generic [ref=e667]: TypeScript
+              - generic [ref=e668]: PostgreSQL
+              - generic [ref=e669]: SQLAlchemy
+              - generic [ref=e670]: Pydantic
+              - generic [ref=e671]: JWT Auth
+              - generic [ref=e672]: Zustand
+              - generic [ref=e673]: Axios
+              - generic [ref=e674]: TailwindCSS
+              - generic [ref=e675]: Gmail SMTP
+              - generic [ref=e676]: Alembic
+              - generic [ref=e677]: Bcrypt
+          - generic [ref=e678]:
+            - heading "Key Features" [level=3] [ref=e679]
+            - generic [ref=e680]:
+              - generic [ref=e681]:
+                - generic [ref=e682]: ✓
+                - generic [ref=e683]: httpOnly cookie authentication with XSS protection
+              - generic [ref=e684]:
+                - generic [ref=e685]: ✓
+                - generic [ref=e686]: Admin panel for team & stock management
+              - generic [ref=e687]:
+                - generic [ref=e688]: ✓
+                - generic [ref=e689]: Automated email delivery of credentials via Gmail SMTP
+              - generic [ref=e690]:
+                - generic [ref=e691]: ✓
+                - generic [ref=e692]: Buddy system for collaborative stock analysis
+              - generic [ref=e693]:
+                - generic [ref=e694]: ✓
+                - generic [ref=e695]: RAG (Red-Amber-Green) status indicators (0-3%, 3-11%, 12-99.9%)
+              - generic [ref=e696]:
+                - generic [ref=e697]: ✓
+                - generic [ref=e698]: Editable analysis fields (Best Buy Price, TradingView URL)
+              - generic [ref=e699]:
+                - generic [ref=e700]: ✓
+                - generic [ref=e701]: Real-time stock price updates with animations
+              - generic [ref=e702]:
+                - generic [ref=e703]: ✓
+                - generic [ref=e704]: Profile photo upload with live camera capture
+              - generic [ref=e705]:
+                - generic [ref=e706]: ✓
+                - generic [ref=e707]: Smart stock filtering (prevents buddy conflicts)
+              - generic [ref=e708]:
+                - generic [ref=e709]: ✓
+                - generic [ref=e710]: 100+ NSE stocks with featured stocks system
+          - generic [ref=e711]:
+            - heading "Architecture Highlights" [level=3] [ref=e712]
+            - generic [ref=e713]:
+              - generic [ref=e714]: FastAPI async operations
+              - generic [ref=e715]: PostgreSQL with connection pooling
+              - generic [ref=e716]: SQLAlchemy ORM with lazy loading
+              - generic [ref=e717]: JWT with refresh tokens
+              - generic [ref=e718]: Zustand state management
+              - generic [ref=e719]: Alembic database migrations
+              - generic [ref=e720]: RESTful API design
+            - generic [ref=e721]:
+              - heading "System Architecture" [level=4] [ref=e722]
+              - generic [ref=e723]: ┌─────────────────┐ ┌─────────────────┐ │ React Frontend │ │ Admin Panel │ │ (TypeScript) │ │ (Management) │ └────────┬────────┘ └────────┬────────┘ │ │ └──────────┬───────────┘ │ ┌───────────▼────────────┐ │ FastAPI Backend │ │ + JWT (httpOnly) │ └───────────┬────────────┘ │ ┌───────────▼────────────┐ │ SQLAlchemy ORM │ └───────────┬────────────┘ │ ┌───────────────┼───────────────┐ │ │ │ ┌───▼────┐ ┌─────▼─────┐ ┌────▼─────┐ │PostgreSQL│ │ Redis │ │ Gmail │ │(100+ NSE)│ │ (Cache) │ │ SMTP │ └──────────┘ └───────────┘ └──────────┘
+        - generic [ref=e724]:
+          - generic [ref=e725]:
+            - generic [ref=e726]:
+              - heading "Industrial Equipment Monitoring System" [level=2] [ref=e727]
+              - paragraph [ref=e728]: Real-time Industrial IoT Platform
+            - generic [ref=e729]:
+              - generic [ref=e730]: Production-Ready Demo
+              - generic [ref=e731]: "2024"
+          - paragraph [ref=e732]: Comprehensive industrial monitoring platform with real-time synchronization between field technicians and management. Features include daily equipment inspections, automated meter reading calculations, interactive building layouts with clickable equipment hotspots, multi-shift support, and role-based dashboards. Built with FastAPI backend and React TypeScript frontend with WebSocket for instant updates.
+          - generic [ref=e733]:
+            - generic [ref=e734]:
+              - generic [ref=e735]: 30+
+              - generic [ref=e736]: companies
+            - generic [ref=e737]:
+              - generic [ref=e738]: 10+
+              - generic [ref=e739]: api Endpoints
+            - generic [ref=e740]:
+              - generic [ref=e741]: 90%
+              - generic [ref=e742]: optimization
+            - generic [ref=e743]:
+              - generic [ref=e744]: WebSocket
+              - generic [ref=e745]: real Time
+            - generic [ref=e746]:
+              - generic [ref=e747]: "2"
+              - generic [ref=e748]: roles
+            - generic [ref=e749]:
+              - generic [ref=e750]: Global
+              - generic [ref=e751]: deployment
+          - generic [ref=e752]:
+            - heading "Technologies Used" [level=3] [ref=e753]
+            - generic [ref=e754]:
+              - generic [ref=e755]: FastAPI
+              - generic [ref=e756]: React
+              - generic [ref=e757]: TypeScript
+              - generic [ref=e758]: Ant Design
+              - generic [ref=e759]: WebSocket
+              - generic [ref=e760]: SQLAlchemy
+              - generic [ref=e761]: SQLite/PostgreSQL
+              - generic [ref=e762]: JWT Auth
+              - generic [ref=e763]: Python
+              - generic [ref=e764]: SVG Graphics
+          - generic [ref=e765]:
+            - heading "Key Features" [level=3] [ref=e766]
+            - generic [ref=e767]:
+              - generic [ref=e768]:
+                - generic [ref=e769]: ✓
+                - generic [ref=e770]: Real-time WebSocket updates between technicians and managers
+              - generic [ref=e771]:
+                - generic [ref=e772]: ✓
+                - generic [ref=e773]: Daily operation dashboard for equipment inspections
+              - generic [ref=e774]:
+                - generic [ref=e775]: ✓
+                - generic [ref=e776]: Executive dashboard for real-time monitoring
+              - generic [ref=e777]:
+                - generic [ref=e778]: ✓
+                - generic [ref=e779]: Interactive building layout with clickable equipment hotspots
+              - generic [ref=e780]:
+                - generic [ref=e781]: ✓
+                - generic [ref=e782]: Automated electricity meter reading calculations (9:00 AM logic)
+              - generic [ref=e783]:
+                - generic [ref=e784]: ✓
+                - generic [ref=e785]: Equipment checklists for pumps and chillers
+              - generic [ref=e786]:
+                - generic [ref=e787]: ✓
+                - generic [ref=e788]: Multi-shift tracking and coordination
+              - generic [ref=e789]:
+                - generic [ref=e790]: ✓
+                - generic [ref=e791]: Role-based access control (Technician/Manager)
+              - generic [ref=e792]:
+                - generic [ref=e793]: ✓
+                - generic [ref=e794]: 90% API call reduction via WebSocket optimization
+              - generic [ref=e795]:
+                - generic [ref=e796]: ✓
+                - generic [ref=e797]: Responsive design for industrial tablets
+          - generic [ref=e798]:
+            - heading "Architecture Highlights" [level=3] [ref=e799]
+            - generic [ref=e800]:
+              - generic [ref=e801]: RESTful API with FastAPI
+              - generic [ref=e802]: WebSocket bidirectional communication
+              - generic [ref=e803]: SQLAlchemy ORM
+              - generic [ref=e804]: JWT authentication
+              - generic [ref=e805]: SVG-based visual layouts
+              - generic [ref=e806]: PostgreSQL production-ready
+              - generic [ref=e807]: Multi-tenant architecture
+            - generic [ref=e808]:
+              - heading "System Architecture" [level=4] [ref=e809]
+              - generic [ref=e810]: ┌─────────────────┐ ┌─────────────────┐ │ Technician │ │ Manager │ │ Dashboard │ │ Dashboard │ └────────┬────────┘ └────────┬────────┘ │ │ └──────────┬───────────┘ │ ┌───────────▼────────────┐ │ WebSocket Server │ │ (Real-time Sync) │ └───────────┬────────────┘ │ ┌───────────▼────────────┐ │ FastAPI Backend │ │ + JWT Auth │ └───────────┬────────────┘ │ ┌───────────▼────────────┐ │ SQLite/PostgreSQL │ │ (Equipment Data) │ └────────────────────────┘
+        - generic [ref=e811]:
+          - generic [ref=e812]:
+            - generic [ref=e813]:
+              - heading "AI Video Call Assistant" [level=2] [ref=e814]
+              - paragraph [ref=e815]: Real-time Communication Platform
+            - generic [ref=e816]:
+              - generic [ref=e817]: Hackathon Demo
+              - generic [ref=e818]: "2024"
+          - paragraph [ref=e819]: Innovative video calling platform built for a school hackathon project. Combines WebRTC video communication with real-time speech-to-text transcription using Web Speech API. Features include room-based connections, SSL-secured local network communication, continuous speech recognition with auto-restart, and cross-platform compatibility.
+          - generic [ref=e820]:
+            - generic [ref=e821]:
+              - generic [ref=e822]: 1-to-1
+              - generic [ref=e823]: connection
+            - generic [ref=e824]:
+              - generic [ref=e825]: Real-time
+              - generic [ref=e826]: transcription
+            - generic [ref=e827]:
+              - generic [ref=e828]: Cross-OS
+              - generic [ref=e829]: platforms
+            - generic [ref=e830]:
+              - generic [ref=e831]: SSL/HTTPS
+              - generic [ref=e832]: security
+            - generic [ref=e833]:
+              - generic [ref=e834]: Continuous
+              - generic [ref=e835]: recognition
+            - generic [ref=e836]:
+              - generic [ref=e837]: Hackathon
+              - generic [ref=e838]: type
+          - generic [ref=e839]:
+            - heading "Technologies Used" [level=3] [ref=e840]
+            - generic [ref=e841]:
+              - generic [ref=e842]: React
+              - generic [ref=e843]: TypeScript
+              - generic [ref=e844]: WebRTC
+              - generic [ref=e845]: FastAPI
+              - generic [ref=e846]: WebSocket
+              - generic [ref=e847]: Web Speech API
+              - generic [ref=e848]: SSL/HTTPS
+              - generic [ref=e849]: Python
+          - generic [ref=e850]:
+            - heading "Key Features" [level=3] [ref=e851]
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - generic [ref=e854]: ✓
+                - generic [ref=e855]: WebRTC peer-to-peer video communication
+              - generic [ref=e856]:
+                - generic [ref=e857]: ✓
+                - generic [ref=e858]: Live speech-to-text transcription in real-time
+              - generic [ref=e859]:
+                - generic [ref=e860]: ✓
+                - generic [ref=e861]: Room-based 1-to-1 connections
+              - generic [ref=e862]:
+                - generic [ref=e863]: ✓
+                - generic [ref=e864]: SSL-secured local network communication
+              - generic [ref=e865]:
+                - generic [ref=e866]: ✓
+                - generic [ref=e867]: Continuous speech recognition with auto-restart
+              - generic [ref=e868]:
+                - generic [ref=e869]: ✓
+                - generic [ref=e870]: Manual MediaStream construction for reliability
+              - generic [ref=e871]:
+                - generic [ref=e872]: ✓
+                - generic [ref=e873]: Chrome autoplay policy compliance
+              - generic [ref=e874]:
+                - generic [ref=e875]: ✓
+                - generic [ref=e876]: Cross-platform (Linux, Windows, mobile browsers)
+          - generic [ref=e877]:
+            - heading "Architecture Highlights" [level=3] [ref=e878]
+            - generic [ref=e879]:
+              - generic [ref=e880]: WebRTC peer-to-peer architecture
+              - generic [ref=e881]: WebSocket signaling server
+              - generic [ref=e882]: FastAPI backend with room management
+              - generic [ref=e883]: Web Speech API integration
+              - generic [ref=e884]: Self-signed SSL certificates
+              - generic [ref=e885]: Manual MediaStream construction
+              - generic [ref=e886]: Auto-restart speech recognition
+            - generic [ref=e887]:
+              - heading "System Architecture" [level=4] [ref=e888]
+              - generic [ref=e889]: ┌─────────────────┐ ┌─────────────────┐ │ Browser A │ │ Browser B │ │ (Peer 1) │ │ (Peer 2) │ └────────┬────────┘ └────────┬────────┘ │ │ │ WebRTC P2P │ │◄────────────────────►│ │ │ └──────────┬───────────┘ │ ┌───────────▼────────────┐ │ FastAPI Signaling │ │ WebSocket Server │ └───────────┬────────────┘ │ ┌───────────▼────────────┐ │ Web Speech API │ │ (Speech-to-Text) │ └────────────────────────┘
+  - contentinfo [ref=e220]:
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - img "iTechFlow" [ref=e225]
+          - paragraph [ref=e226]: Building Tamil AI agents & scalable systems for businesses across India.
+          - link "+91 9080849708" [ref=e227] [cursor=pointer]:
+            - /url: https://wa.me/919080849708
+            - img [ref=e228]
+            - text: +91 9080849708
+        - generic [ref=e230]:
+          - heading "Quick Links" [level=4] [ref=e231]
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - link "Solutions" [ref=e234] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=e235]:
+              - link "Projects" [ref=e236] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e237]:
+              - link "Insights" [ref=e238] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e239]:
+              - link "Hire Me" [ref=e240] [cursor=pointer]:
+                - /url: /hire-me
+            - listitem [ref=e241]:
+              - link "Contact" [ref=e242] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e243]:
+          - heading "Services" [level=4] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - generic [ref=e247]: 🤖
+              - text: AI Agent Development
+            - listitem [ref=e248]: Full-Stack Development
+            - listitem [ref=e249]: AI Integration
+            - listitem [ref=e250]: Backend Architecture
+            - listitem [ref=e251]: VPS Deployment
+        - generic [ref=e252]:
+          - heading "Contact" [level=4] [ref=e253]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "contact@itechflow.co.in" [ref=e256] [cursor=pointer]:
+                - /url: mailto:contact@itechflow.co.in
+            - listitem [ref=e257]:
+              - link "+91 9080849708 (WhatsApp)" [ref=e258] [cursor=pointer]:
+                - /url: https://wa.me/919080849708
+            - listitem [ref=e259]:
+              - link "Get in Touch →" [ref=e260] [cursor=pointer]:
+                - /url: /contact
+      - generic [ref=e261]:
+        - paragraph [ref=e262]: © 2026 iTechFlow — All rights reserved.
+        - paragraph [ref=e263]: Built with Next.js · TypeScript · Framer Motion
+  - button "Open Next.js Dev Tools" [ref=e269] [cursor=pointer]:
+    - img [ref=e270]
+  - alert [ref=e288]: Projects — iTechFlow | iTechFlow

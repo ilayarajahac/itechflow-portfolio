@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hire Me — iTechFlow | Full Stack Developer & AI Agent Builder",
+  title: "Hire Me — Full Stack Developer & AI Agent Builder",
   description: "Hire Ilayaraja for full-stack development, Tamil AI agents, WhatsApp bots, and scalable backend systems for businesses across India.",
 };
 

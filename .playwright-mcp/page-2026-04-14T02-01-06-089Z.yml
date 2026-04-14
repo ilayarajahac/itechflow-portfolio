@@ -1,0 +1,135 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "iTechFlow iTechFlow" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "iTechFlow" [ref=e6]
+        - generic [ref=e7]: iTechFlow
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Solutions" [ref=e10] [cursor=pointer]:
+          - /url: /solutions
+        - link "Projects" [ref=e11] [cursor=pointer]:
+          - /url: /projects
+        - link "Insights" [ref=e12] [cursor=pointer]:
+          - /url: /insights
+        - link "Chat on WhatsApp" [ref=e13] [cursor=pointer]:
+          - /url: https://wa.me/919080849708
+          - img [ref=e14]
+          - text: WhatsApp
+        - link "Hire Me" [ref=e16] [cursor=pointer]:
+          - /url: /hire-me
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Get in Touch" [level=1] [ref=e20]
+        - paragraph [ref=e21]: Have a project in mind? Reach me directly on WhatsApp or send an email.
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - link "Chat on WhatsApp +91 9080849708 Fastest response • Usually replies in minutes" [ref=e24] [cursor=pointer]:
+            - /url: https://wa.me/919080849708
+            - img [ref=e26]
+            - generic [ref=e28]:
+              - generic [ref=e29]: Chat on WhatsApp
+              - generic [ref=e30]: +91 9080849708
+              - generic [ref=e31]: Fastest response • Usually replies in minutes
+            - img [ref=e32]
+          - link "Send Email contact@itechflow.co.in Detailed inquiries & proposals" [ref=e34] [cursor=pointer]:
+            - /url: mailto:contact@itechflow.co.in
+            - img [ref=e36]
+            - generic [ref=e38]:
+              - generic [ref=e39]: Send Email
+              - generic [ref=e40]: contact@itechflow.co.in
+              - generic [ref=e41]: Detailed inquiries & proposals
+            - img [ref=e42]
+          - generic [ref=e44]:
+            - heading "What I can help with" [level=3] [ref=e45]
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - generic [ref=e48]: 🤖 Tamil AI Receptionist / WhatsApp Bot
+              - listitem [ref=e49]:
+                - generic [ref=e50]: ⚡ Full-Stack Web Application
+              - listitem [ref=e51]:
+                - generic [ref=e52]: 🏗️ Backend API Development
+              - listitem [ref=e53]:
+                - generic [ref=e54]: ⚙️ Automation & n8n Workflows
+              - listitem [ref=e55]:
+                - generic [ref=e56]: 🚀 VPS Setup & Deployment
+              - listitem [ref=e57]:
+                - generic [ref=e58]: 🧠 AI Integration & LangChain
+        - generic [ref=e60]:
+          - heading "Send a Message" [level=2] [ref=e61]
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: Name
+              - textbox "Name" [ref=e65]:
+                - /placeholder: Your name
+            - generic [ref=e66]:
+              - generic [ref=e67]: Email
+              - textbox "Email" [ref=e68]:
+                - /placeholder: your@email.com
+            - generic [ref=e69]:
+              - generic [ref=e70]: Project Details
+              - textbox "Project Details" [ref=e71]:
+                - /placeholder: Tell me about your project...
+            - button "Send Message →" [ref=e72]
+            - paragraph [ref=e73]:
+              - text: Or reach me instantly on
+              - link "WhatsApp" [ref=e74] [cursor=pointer]:
+                - /url: https://wa.me/919080849708
+  - contentinfo [ref=e75]:
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - img "iTechFlow" [ref=e80]
+          - paragraph [ref=e81]: Building Tamil AI agents & scalable systems for businesses across India.
+          - link "+91 9080849708" [ref=e82] [cursor=pointer]:
+            - /url: https://wa.me/919080849708
+            - img [ref=e83]
+            - text: +91 9080849708
+        - generic [ref=e85]:
+          - heading "Quick Links" [level=4] [ref=e86]
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "Solutions" [ref=e89] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=e90]:
+              - link "Projects" [ref=e91] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e92]:
+              - link "Insights" [ref=e93] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e94]:
+              - link "Hire Me" [ref=e95] [cursor=pointer]:
+                - /url: /hire-me
+            - listitem [ref=e96]:
+              - link "Contact" [ref=e97] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e98]:
+          - heading "Services" [level=4] [ref=e99]
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - generic [ref=e102]: 🤖
+              - text: AI Agent Development
+            - listitem [ref=e103]: Full-Stack Development
+            - listitem [ref=e104]: AI Integration
+            - listitem [ref=e105]: Backend Architecture
+            - listitem [ref=e106]: VPS Deployment
+        - generic [ref=e107]:
+          - heading "Contact" [level=4] [ref=e108]
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - link "contact@itechflow.co.in" [ref=e111] [cursor=pointer]:
+                - /url: mailto:contact@itechflow.co.in
+            - listitem [ref=e112]:
+              - link "+91 9080849708 (WhatsApp)" [ref=e113] [cursor=pointer]:
+                - /url: https://wa.me/919080849708
+            - listitem [ref=e114]:
+              - link "Get in Touch →" [ref=e115] [cursor=pointer]:
+                - /url: /contact
+      - generic [ref=e116]:
+        - paragraph [ref=e117]: © 2026 iTechFlow — All rights reserved.
+        - paragraph [ref=e118]: Built with Next.js · TypeScript · Framer Motion
+  - button "Open Next.js Dev Tools" [ref=e124] [cursor=pointer]:
+    - img [ref=e125]

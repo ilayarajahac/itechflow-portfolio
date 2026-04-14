@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Insights — iTechFlow",
+  title: "Insights",
   description:
     "Articles, tutorials, and insights on Tamil AI, full-stack development, and building scalable systems for Indian businesses.",
 };

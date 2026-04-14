@@ -222,10 +222,10 @@ export default function Home() {
             <FloatingBadge delay={1.2} className="-bottom-2 -right-6" color="bg-green-500/20 border-green-500/40 text-green-300">
               WhatsApp API
             </FloatingBadge>
-            <FloatingBadge delay={1.6} className="top-1/2 -left-8" color="bg-blue-500/20 border-blue-500/40 text-blue-300">
+            <FloatingBadge delay={1.6} className="-top-4 left-12" color="bg-blue-500/20 border-blue-500/40 text-blue-300">
               FastAPI
             </FloatingBadge>
-            <FloatingBadge delay={2.0} className="bottom-16 -left-4" color="bg-[#06b6d4]/20 border-[#06b6d4]/40 text-[#06b6d4]">
+            <FloatingBadge delay={2.0} className="bottom-8 -left-2" color="bg-[#06b6d4]/20 border-[#06b6d4]/40 text-[#06b6d4]">
               Tamil AI
             </FloatingBadge>
           </motion.div>

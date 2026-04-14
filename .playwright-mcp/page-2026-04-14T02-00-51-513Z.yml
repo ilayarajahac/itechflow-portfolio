@@ -1,0 +1,182 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "iTechFlow iTechFlow" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "iTechFlow" [ref=e6]
+        - generic [ref=e7]: iTechFlow
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Solutions" [ref=e10] [cursor=pointer]:
+          - /url: /solutions
+        - link "Projects" [ref=e11] [cursor=pointer]:
+          - /url: /projects
+        - link "Insights" [ref=e12] [cursor=pointer]:
+          - /url: /insights
+        - link "Chat on WhatsApp" [ref=e13] [cursor=pointer]:
+          - /url: https://wa.me/919080849708
+          - img [ref=e14]
+          - text: WhatsApp
+        - link "Hire Me" [ref=e16] [cursor=pointer]:
+          - /url: /hire-me
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Solutions I Provide" [level=1] [ref=e20]
+        - paragraph [ref=e21]: From Tamil AI agents to enterprise platforms — custom solutions tailored for Indian businesses.
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: 🤖
+            - heading "Tamil AI Agents" [level=2] [ref=e26]
+          - paragraph [ref=e27]: 24/7 Tamil voice receptionist, WhatsApp chatbots, and lead generation agents. Built with Sarvam AI for native Tamil understanding.
+          - list [ref=e28]:
+            - listitem [ref=e29]:
+              - generic [ref=e30]: ✓
+              - text: Tamil AI Receptionist (voice + WhatsApp)
+            - listitem [ref=e31]:
+              - generic [ref=e32]: ✓
+              - text: WhatsApp Business Bot
+            - listitem [ref=e33]:
+              - generic [ref=e34]: ✓
+              - text: Lead capture & CRM integration
+            - listitem [ref=e35]:
+              - generic [ref=e36]: ✓
+              - text: Real-time owner notifications
+            - listitem [ref=e37]:
+              - generic [ref=e38]: ✓
+              - text: Supabase data storage
+          - link "Build an AI Agent" [ref=e39] [cursor=pointer]:
+            - /url: https://wa.me/919080849708?text=Hi!%20I%27d%20like%20to%20build%20a%20Tamil%20AI%20agent.
+            - img [ref=e40]
+            - text: Build an AI Agent
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: 🚀
+            - heading "For Startups" [level=2] [ref=e45]
+          - paragraph [ref=e46]: MVP development, scalable architecture, and rapid deployment to get your product to market fast.
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - generic [ref=e49]: ✓
+              - text: Full-stack web applications
+            - listitem [ref=e50]:
+              - generic [ref=e51]: ✓
+              - text: REST API development
+            - listitem [ref=e52]:
+              - generic [ref=e53]: ✓
+              - text: Database design & optimization
+            - listitem [ref=e54]:
+              - generic [ref=e55]: ✓
+              - text: Cloud / VPS deployment
+            - listitem [ref=e56]:
+              - generic [ref=e57]: ✓
+              - text: Authentication & payments
+          - link "Discuss Your MVP →" [ref=e58] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: 🏭
+            - heading "For Industries" [level=2] [ref=e62]
+          - paragraph [ref=e63]: Automation systems, AI integration, and custom tools to optimize operations and reduce costs.
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - generic [ref=e66]: ✓
+              - text: Process automation with n8n
+            - listitem [ref=e67]:
+              - generic [ref=e68]: ✓
+              - text: AI-powered search & chatbots
+            - listitem [ref=e69]:
+              - generic [ref=e70]: ✓
+              - text: Real-time dashboards
+            - listitem [ref=e71]:
+              - generic [ref=e72]: ✓
+              - text: IoT & equipment monitoring
+            - listitem [ref=e73]:
+              - generic [ref=e74]: ✓
+              - text: Legacy system modernization
+          - link "Get a Custom Solution →" [ref=e75] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: 🏗️
+            - heading "Enterprise ERP" [level=2] [ref=e79]
+          - paragraph [ref=e80]: Production-grade ERP platforms with multi-tenancy, real-time sync, mobile apps, and compliance modules.
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - generic [ref=e83]: ✓
+              - text: Multi-tenant architecture
+            - listitem [ref=e84]:
+              - generic [ref=e85]: ✓
+              - text: Django / FastAPI backends
+            - listitem [ref=e86]:
+              - generic [ref=e87]: ✓
+              - text: React / React Native frontend
+            - listitem [ref=e88]:
+              - generic [ref=e89]: ✓
+              - text: GST-compliant finance modules
+            - listitem [ref=e90]:
+              - generic [ref=e91]: ✓
+              - text: WebSocket real-time updates
+          - link "Plan Your ERP →" [ref=e92] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e93]:
+        - heading "Not sure which solution fits?" [level=3] [ref=e94]
+        - paragraph [ref=e95]: Chat with me on WhatsApp and I'll help you figure out the best approach.
+        - link "Chat on WhatsApp →" [ref=e96] [cursor=pointer]:
+          - /url: https://wa.me/919080849708
+  - contentinfo [ref=e97]:
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - img "iTechFlow" [ref=e102]
+          - paragraph [ref=e103]: Building Tamil AI agents & scalable systems for businesses across India.
+          - link "+91 9080849708" [ref=e104] [cursor=pointer]:
+            - /url: https://wa.me/919080849708
+            - img [ref=e105]
+            - text: +91 9080849708
+        - generic [ref=e107]:
+          - heading "Quick Links" [level=4] [ref=e108]
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - link "Solutions" [ref=e111] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=e112]:
+              - link "Projects" [ref=e113] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e114]:
+              - link "Insights" [ref=e115] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e116]:
+              - link "Hire Me" [ref=e117] [cursor=pointer]:
+                - /url: /hire-me
+            - listitem [ref=e118]:
+              - link "Contact" [ref=e119] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e120]:
+          - heading "Services" [level=4] [ref=e121]
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - generic [ref=e124]: 🤖
+              - text: AI Agent Development
+            - listitem [ref=e125]: Full-Stack Development
+            - listitem [ref=e126]: AI Integration
+            - listitem [ref=e127]: Backend Architecture
+            - listitem [ref=e128]: VPS Deployment
+        - generic [ref=e129]:
+          - heading "Contact" [level=4] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "contact@itechflow.co.in" [ref=e133] [cursor=pointer]:
+                - /url: mailto:contact@itechflow.co.in
+            - listitem [ref=e134]:
+              - link "+91 9080849708 (WhatsApp)" [ref=e135] [cursor=pointer]:
+                - /url: https://wa.me/919080849708
+            - listitem [ref=e136]:
+              - link "Get in Touch →" [ref=e137] [cursor=pointer]:
+                - /url: /contact
+      - generic [ref=e138]:
+        - paragraph [ref=e139]: © 2026 iTechFlow — All rights reserved.
+        - paragraph [ref=e140]: Built with Next.js · TypeScript · Framer Motion
+  - button "Open Next.js Dev Tools" [ref=e146] [cursor=pointer]:
+    - img [ref=e147]

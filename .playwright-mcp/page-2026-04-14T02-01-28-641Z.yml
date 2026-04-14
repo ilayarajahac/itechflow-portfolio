@@ -1,0 +1,297 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "iTechFlow iTechFlow" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "iTechFlow" [ref=e6]
+        - generic [ref=e7]: iTechFlow
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Solutions" [ref=e10] [cursor=pointer]:
+          - /url: /solutions
+        - link "Projects" [ref=e11] [cursor=pointer]:
+          - /url: /projects
+        - link "Insights" [ref=e12] [cursor=pointer]:
+          - /url: /insights
+        - link "Chat on WhatsApp" [ref=e13] [cursor=pointer]:
+          - /url: https://wa.me/919080849708
+          - img [ref=e14]
+          - text: WhatsApp
+        - link "Hire Me" [ref=e16] [cursor=pointer]:
+          - /url: /hire-me
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e26]: Available for hire
+          - heading "Hi, I'm Ilayaraja" [level=1] [ref=e27]
+          - paragraph [ref=e28]: Full Stack Developer & AI Agent Builder
+          - paragraph [ref=e29]: I build Tamil AI agents, WhatsApp bots, and scalable backend systems for businesses across India. From a 24/7 Tamil voice receptionist to enterprise ERP platforms — I deliver production-ready solutions.
+          - generic [ref=e30]:
+            - link "Chat on WhatsApp" [ref=e31] [cursor=pointer]:
+              - /url: https://wa.me/919080849708
+              - img [ref=e32]
+              - text: Chat on WhatsApp
+            - link "Send Email" [ref=e34] [cursor=pointer]:
+              - /url: mailto:contact@itechflow.co.in
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: 🚀
+            - generic [ref=e38]: "7"
+            - generic [ref=e39]: Production Projects
+          - generic [ref=e40]:
+            - generic [ref=e41]: ⏳
+            - generic [ref=e42]: 3+
+            - generic [ref=e43]: Years Experience
+          - generic [ref=e44]:
+            - generic [ref=e45]: 🤖
+            - generic [ref=e46]: "2"
+            - generic [ref=e47]: AI Agents Live
+          - generic [ref=e48]:
+            - generic [ref=e49]: 🗣️
+            - generic [ref=e50]: Tamil
+            - generic [ref=e51]: AI Specialist
+      - heading "My Skills" [level=2] [ref=e52]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: 🤖
+            - heading "AI Agents" [level=3] [ref=e57]
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - generic [ref=e60]: ✓
+              - text: Tamil AI Receptionist
+            - listitem [ref=e61]:
+              - generic [ref=e62]: ✓
+              - text: WhatsApp AI Bot
+            - listitem [ref=e63]:
+              - generic [ref=e64]: ✓
+              - text: LangChain Agents
+            - listitem [ref=e65]:
+              - generic [ref=e66]: ✓
+              - text: Sarvam AI Integration
+            - listitem [ref=e67]:
+              - generic [ref=e68]: ✓
+              - text: Lead Generation AI
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: 🏗️
+            - heading "Backend" [level=3] [ref=e72]
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - generic [ref=e75]: ✓
+              - text: Django & FastAPI
+            - listitem [ref=e76]:
+              - generic [ref=e77]: ✓
+              - text: PostgreSQL & Redis
+            - listitem [ref=e78]:
+              - generic [ref=e79]: ✓
+              - text: WebSocket & Celery
+            - listitem [ref=e80]:
+              - generic [ref=e81]: ✓
+              - text: REST API Design
+            - listitem [ref=e82]:
+              - generic [ref=e83]: ✓
+              - text: Supabase
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: 🌐
+            - heading "Frontend" [level=3] [ref=e87]
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - generic [ref=e90]: ✓
+              - text: React & Next.js
+            - listitem [ref=e91]:
+              - generic [ref=e92]: ✓
+              - text: TypeScript
+            - listitem [ref=e93]:
+              - generic [ref=e94]: ✓
+              - text: Tailwind CSS
+            - listitem [ref=e95]:
+              - generic [ref=e96]: ✓
+              - text: Framer Motion
+            - listitem [ref=e97]:
+              - generic [ref=e98]: ✓
+              - text: PWA Development
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: ⚡
+            - heading "Integrations" [level=3] [ref=e102]
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - generic [ref=e105]: ✓
+              - text: Twilio Voice & SMS
+            - listitem [ref=e106]:
+              - generic [ref=e107]: ✓
+              - text: WhatsApp Business API
+            - listitem [ref=e108]:
+              - generic [ref=e109]: ✓
+              - text: n8n Automation
+            - listitem [ref=e110]:
+              - generic [ref=e111]: ✓
+              - text: Gmail SMTP
+            - listitem [ref=e112]:
+              - generic [ref=e113]: ✓
+              - text: Webhook Handlers
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: 🚀
+            - heading "Deployment" [level=3] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - generic [ref=e120]: ✓
+              - text: VPS & Nginx
+            - listitem [ref=e121]:
+              - generic [ref=e122]: ✓
+              - text: Docker
+            - listitem [ref=e123]:
+              - generic [ref=e124]: ✓
+              - text: Vercel & Netlify
+            - listitem [ref=e125]:
+              - generic [ref=e126]: ✓
+              - text: SSL Configuration
+            - listitem [ref=e127]:
+              - generic [ref=e128]: ✓
+              - text: CI/CD Pipelines
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]: 🗄️
+            - heading "Database" [level=3] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - generic [ref=e135]: ✓
+              - text: PostgreSQL Design
+            - listitem [ref=e136]:
+              - generic [ref=e137]: ✓
+              - text: Redis Caching
+            - listitem [ref=e138]:
+              - generic [ref=e139]: ✓
+              - text: Supabase
+            - listitem [ref=e140]:
+              - generic [ref=e141]: ✓
+              - text: Query Optimization
+            - listitem [ref=e142]:
+              - generic [ref=e143]: ✓
+              - text: Database Migrations
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - heading "What I Offer" [level=2] [ref=e146]
+          - list [ref=e147]:
+            - listitem [ref=e148]:
+              - generic [ref=e149]: ✓
+              - text: Tamil AI Receptionist & WhatsApp Bots
+            - listitem [ref=e150]:
+              - generic [ref=e151]: ✓
+              - text: Full-stack development (Django, FastAPI, React, Next.js)
+            - listitem [ref=e152]:
+              - generic [ref=e153]: ✓
+              - text: LangChain & Sarvam AI integration
+            - listitem [ref=e154]:
+              - generic [ref=e155]: ✓
+              - text: Backend architecture & API design
+            - listitem [ref=e156]:
+              - generic [ref=e157]: ✓
+              - text: Database optimization & Supabase
+            - listitem [ref=e158]:
+              - generic [ref=e159]: ✓
+              - text: VPS deployment & DevOps
+            - listitem [ref=e160]:
+              - generic [ref=e161]: ✓
+              - text: n8n automation workflows
+            - listitem [ref=e162]:
+              - generic [ref=e163]: ✓
+              - text: Code review & consulting
+        - generic [ref=e164]:
+          - heading "Work Preferences" [level=2] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - generic [ref=e168]: 📍
+              - text: Remote work (India & worldwide)
+            - listitem [ref=e169]:
+              - generic [ref=e170]: ⏰
+              - text: Flexible hours, fast turnaround
+            - listitem [ref=e171]:
+              - generic [ref=e172]: 💼
+              - text: Project-based or long-term contracts
+            - listitem [ref=e173]:
+              - generic [ref=e174]: 🤝
+              - text: Direct communication via WhatsApp
+            - listitem [ref=e175]:
+              - generic [ref=e176]: 📊
+              - text: Regular progress updates
+            - listitem [ref=e177]:
+              - generic [ref=e178]: 🚀
+              - text: Production-ready deliverables
+            - listitem [ref=e179]:
+              - generic [ref=e180]: 🗣️
+              - text: Tamil & English communication
+            - listitem [ref=e181]:
+              - generic [ref=e182]: 🇮🇳
+              - text: India-focused AI (Tamil, Hindi)
+      - generic [ref=e183]:
+        - heading "Ready to Start?" [level=3] [ref=e184]
+        - paragraph [ref=e185]: Reach me on WhatsApp for the fastest response, or send an email for detailed project proposals.
+        - generic [ref=e186]:
+          - link "+91 9080849708" [ref=e187] [cursor=pointer]:
+            - /url: https://wa.me/919080849708
+            - img [ref=e188]
+            - text: +91 9080849708
+          - link "contact@itechflow.co.in" [ref=e190] [cursor=pointer]:
+            - /url: mailto:contact@itechflow.co.in
+        - paragraph [ref=e191]: Response within 1 hour during business hours · India Standard Time
+  - contentinfo [ref=e192]:
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - img "iTechFlow" [ref=e197]
+          - paragraph [ref=e198]: Building Tamil AI agents & scalable systems for businesses across India.
+          - link "+91 9080849708" [ref=e199] [cursor=pointer]:
+            - /url: https://wa.me/919080849708
+            - img [ref=e200]
+            - text: +91 9080849708
+        - generic [ref=e202]:
+          - heading "Quick Links" [level=4] [ref=e203]
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "Solutions" [ref=e206] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=e207]:
+              - link "Projects" [ref=e208] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e209]:
+              - link "Insights" [ref=e210] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e211]:
+              - link "Hire Me" [ref=e212] [cursor=pointer]:
+                - /url: /hire-me
+            - listitem [ref=e213]:
+              - link "Contact" [ref=e214] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e215]:
+          - heading "Services" [level=4] [ref=e216]
+          - list [ref=e217]:
+            - listitem [ref=e218]:
+              - generic [ref=e219]: 🤖
+              - text: AI Agent Development
+            - listitem [ref=e220]: Full-Stack Development
+            - listitem [ref=e221]: AI Integration
+            - listitem [ref=e222]: Backend Architecture
+            - listitem [ref=e223]: VPS Deployment
+        - generic [ref=e224]:
+          - heading "Contact" [level=4] [ref=e225]
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "contact@itechflow.co.in" [ref=e228] [cursor=pointer]:
+                - /url: mailto:contact@itechflow.co.in
+            - listitem [ref=e229]:
+              - link "+91 9080849708 (WhatsApp)" [ref=e230] [cursor=pointer]:
+                - /url: https://wa.me/919080849708
+            - listitem [ref=e231]:
+              - link "Get in Touch →" [ref=e232] [cursor=pointer]:
+                - /url: /contact
+      - generic [ref=e233]:
+        - paragraph [ref=e234]: © 2026 iTechFlow — All rights reserved.
+        - paragraph [ref=e235]: Built with Next.js · TypeScript · Framer Motion
+  - button "Open Next.js Dev Tools" [ref=e241] [cursor=pointer]:
+    - img [ref=e242]

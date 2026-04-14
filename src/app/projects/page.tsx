@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { projects } from "@/data/projects";
 
 export const metadata: Metadata = {
-  title: "Projects — iTechFlow",
+  title: "Projects",
   description:
     "Real production projects by iTechFlow — Tamil AI receptionist, WhatsApp bots, enterprise ERP, and scalable backend systems.",
 };

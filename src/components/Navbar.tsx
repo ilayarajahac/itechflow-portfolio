@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -42,8 +43,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold group">
-            <span className="gradient-text group-hover:opacity-80 transition-opacity">
+          <Link href="/" className="flex items-center gap-2.5 group">
+            <Image
+              src="/logo.png"
+              alt="iTechFlow"
+              width={36}
+              height={36}
+              className="h-9 w-9 object-contain group-hover:opacity-85 transition-opacity"
+              priority
+            />
+            <span className="text-xl font-bold gradient-text group-hover:opacity-80 transition-opacity">
               iTechFlow
             </span>
           </Link>

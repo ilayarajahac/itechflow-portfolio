@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,9 +8,15 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="sm:col-span-2 md:col-span-1">
-            <h3 className="text-2xl font-bold mb-3">
-              <span className="gradient-text">iTechFlow</span>
-            </h3>
+            <div className="mb-3">
+              <Image
+                src="/logo.png"
+                alt="iTechFlow"
+                width={140}
+                height={40}
+                className="h-9 w-auto object-contain"
+              />
+            </div>
             <p className="text-gray-400 text-sm mb-4 leading-relaxed">
               Building Tamil AI agents &amp; scalable systems for businesses across India.
             </p>
@@ -87,7 +94,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} iTechFlow. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} iTechFlow &mdash; All rights reserved.</p>
           <p className="text-xs">
             Built with Next.js · TypeScript · Framer Motion
           </p>
